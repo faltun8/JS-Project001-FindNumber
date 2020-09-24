@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/bg@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    h3 {
+        margin-top: 2em;
+    }
+    #inp {
+        margin-top: 2em;
+        width: 18em;
+        border-radius: 8px;
+        border: none;
+        padding-left: 10px;
+        height: 25px;
+    }
+    p {
+        margin-top: 2em;
+    }
+
+    button {
+        border: none;
+        padding: 5px;
+        background-color: aliceblue;
+        border-radius: 5px;
+    }
+
+    #counter {
+        font-size: 0.8em;
+    }
+}
